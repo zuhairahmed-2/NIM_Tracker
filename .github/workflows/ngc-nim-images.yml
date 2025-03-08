@@ -19,20 +19,21 @@ jobs:
 
       - name: Install NGC CLI
         run: |
-            curl -O https://ngc.nvidia.com/downloads/ngccli_linux.zip
-            unzip ngccli_linux.zip
-            chmod +x ~/.ngc/ngc-cli
-            cd ngc-cli/
+          curl -O https://ngc.nvidia.com/downloads/ngccli_linux.zip
+          unzip ngccli_linux.zip -d $HOME/.ngc
+          chmod +x $HOME/.ngc/ngc-cli/ngc
+          echo "export PATH=$HOME/.ngc/ngc-cli:\$PATH" >> $GITHUB_ENV
 
       - name: Authenticate with NGC
         env:
           NGC_API_KEY: ${{ secrets.NGC_API_KEY }}
         run: |
+          mkdir -p ~/.ngc
           echo "{\"apikey\":\"$NGC_API_KEY\"}" > ~/.ngc/config
 
       - name: Fetch and Filter NVIDIA NIM Images
         run: |
-          ./ngc registry image list \
+          ngc registry image list \
           | jq '[ .[] 
                   | select(any(.labels[]?.values[]?; . == "NVIDIA NIM")) ]
                 | {
