@@ -1,25 +1,23 @@
-name: Fetch NVIDIA NIM Images
+name: NGC NIM Images Workflow
 
 on:
-  workflow_dispatch:  # Allows manual triggering
-  schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   fetch-nim-images:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
 
-      - name: Install Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq curl unzip
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
       - name: Install NGC CLI
         run: |
-
           curl -O https://ngc.nvidia.com/downloads/ngccli_linux.zip
           unzip ngccli_linux.zip -d $HOME/.ngc
           chmod +x $HOME/.ngc/ngc-cli/ngc
@@ -32,26 +30,28 @@ jobs:
         run: |
           mkdir -p ~/.ngc
           cat <<EOF > ~/.ngc/config
-          [CURRENT]
-          apikey = $NGC_API_KEY
-          format_type = json
-          org = 0628453927502513
-          # Add team, ace, etc. if needed
-          EOF
-          chmod 600 ~/.ngc/config 
+[CURRENT]
+apikey = $NGC_API_KEY
+format_type = json
+org = 0628453927502513
+EOF
+          chmod 600 ~/.ngc/config
 
       - name: Fetch and Filter NVIDIA NIM Images
         run: |
           ngc registry image list \
-          | jq '[ .[] 
-                  | select(any(.labels[]?.values[]?; . == "NVIDIA NIM")) ]
-                | {
-                    count: length,
-                    displayNames: [.[].displayName]
-                  }' > nim_images.json
+            | jq '[ .[] 
+                    | select(any(.labels[]?.values[]?; . == "NVIDIA NIM")) ]
+                  | {
+                      count: length,
+                      displayNames: [.[].displayName]
+                    }' > new_nim_images.json
 
-      - name: Upload JSON Results as Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: nim-images
-          path: nim_images.json
+      - name: Compare with Previous Version
+        run: |
+          if [ -f data/nim_images.json ]; then
+            echo "===== Checking additions/removals ====="
+            # Extract old NIMs into a file
+            jq -r '.displayNames[]' data/nim_images.json > old_nims.txt
+            # Extract new NIMs
+            jq -r '.displayNames[]' new_nim_images.json > new_nims.txt
