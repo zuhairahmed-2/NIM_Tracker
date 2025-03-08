@@ -1,6 +1,7 @@
 name: NGC NIM Images Workflow
 
 on:
+  workflow_dispatch:  # Add manual trigger
   push:
     branches:
       - main
