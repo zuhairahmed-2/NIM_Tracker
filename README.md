@@ -1,10 +1,10 @@
 # NGC NIM Images Workflow
 
-This repository contains a **GitHub Actions** workflow that automatically **fetches a daily snapshot** of [NVIDIA NIM](https://docs.nvidia.com/ai-enterprise/ngc-overview/index.html) images from the **NGC container registry**, stores them in the `data/` folder, and **logs any changes** compared to previous runs (1 day and 7 days).
+This repository contains a **GitHub Actions** workflow that automatically **fetches a daily snapshot** of [NVIDIA NIM](https://catalog.ngc.nvidia.com/containers) images from the **NGC container registry**, stores them in the `data/` folder, and **logs any changes** compared to previous runs (1 day and 7 days).
 
 ## What It Does
 
-1. **Fetches NIM Data**: Uses the [NGC CLI](https://ngc.nvidia.com/setup/cli) to list all registry images labeled “NVIDIA NIM.”  
+1. **Fetches NIM Data**: Uses the [NGC CLI](https://docs.ngc.nvidia.com/cli/cmd.html) to list all registry images labeled “NVIDIA NIM.”  
 2. **Daily Scheduling**: Runs **every day at midnight UTC**, plus manual triggers if needed.  
 3. **Archives Each Snapshot**: Saves a daily JSON file named `YYYY-MM-DD.json` in `data/archive/`.  
 4. **Generates a Diff**: A single `data/nim_diff.txt` shows what changed since yesterday and since 7 days ago (NIMs added or removed).  
