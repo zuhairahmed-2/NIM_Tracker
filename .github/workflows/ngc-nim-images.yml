@@ -17,12 +17,14 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq curl
 
-      - name: Install NGC CLI
-        run: |
-          curl -O https://ngc.nvidia.com/downloads/ngccli_linux.zip
-          unzip ngccli_linux.zip -d ~/.ngc
-          chmod +x ~/.ngc/ngc-cli
-          echo "$HOME/.ngc" >> $GITHUB_PATH
+          - name: Install NGC CLI
+          run: |
+            curl -O https://ngc.nvidia.com/downloads/ngccli_linux.zip
+            unzip ngccli_linux.zip -d ~/.ngc
+            chmod +x ~/.ngc/ngc-cli
+            echo "export PATH=$HOME/.ngc:\$PATH" >> ~/.bashrc
+            echo "export PATH=$HOME/.ngc:\$PATH" >> ~/.profile
+            echo "$HOME/.ngc" >> $GITHUB_PATH        
 
       - name: Authenticate with NGC
         env:
