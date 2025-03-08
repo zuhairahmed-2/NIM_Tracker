@@ -12,16 +12,26 @@ jobs:
   fetch-nim-images:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # Needed to commit & push changes back to the repo
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Check out Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq curl unzip
 
       - name: Install NGC CLI
         run: |
           curl -O https://ngc.nvidia.com/downloads/ngccli_linux.zip
           unzip ngccli_linux.zip -d $HOME/.ngc
           chmod +x $HOME/.ngc/ngc-cli/ngc
-          # Append NGC CLI to PATH for subsequent steps
+          # Append NGC CLI to PATH
           echo "$HOME/.ngc/ngc-cli" >> $GITHUB_PATH
 
       - name: Authenticate with NGC
@@ -30,11 +40,11 @@ jobs:
         run: |
           mkdir -p ~/.ngc
           cat <<EOF > ~/.ngc/config
-[CURRENT]
-apikey = $NGC_API_KEY
-format_type = json
-org = 0628453927502513
-EOF
+          [CURRENT]
+          apikey = $NGC_API_KEY
+          format_type = json
+          org = 0628453927502513
+          EOF
           chmod 600 ~/.ngc/config
 
       - name: Fetch and Filter NVIDIA NIM Images
@@ -55,3 +65,45 @@ EOF
             jq -r '.displayNames[]' data/nim_images.json > old_nims.txt
             # Extract new NIMs
             jq -r '.displayNames[]' new_nim_images.json > new_nims.txt
+
+            # Sort and compare
+            sort old_nims.txt > old_sorted.txt
+            sort new_nims.txt > new_sorted.txt
+
+            echo "=== Added NIMs ==="
+            comm -13 old_sorted.txt new_sorted.txt || true
+
+            echo "=== Removed NIMs ==="
+            comm -23 old_sorted.txt new_sorted.txt || true
+
+            # Optional: show raw diff
+            echo "=== Raw JSON diff ==="
+            diff data/nim_images.json new_nim_images.json || true
+          else
+            echo "No previous version found (first run)."
+          fi
+
+      - name: Commit and Push New Data
+        run: |
+          mkdir -p data
+          mv new_nim_images.json data/nim_images.json
+          
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          
+          git add data/nim_images.json
+          
+          # Only commit if there's actually a change
+          if ! git diff --cached --quiet; then
+            git commit -m "Update NIM images [skip ci]"
+            # Push to the main branch (adjust if your default branch is different)
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Upload JSON Results as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nim-images
+          path: data/nim_images.json
