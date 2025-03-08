@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Needed to commit & push changes back to the repo
+      contents: write
 
     steps:
       - name: Check out Repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: true
 
       - name: Install Dependencies
         run: |
@@ -31,7 +31,6 @@ jobs:
           curl -O https://ngc.nvidia.com/downloads/ngccli_linux.zip
           unzip ngccli_linux.zip -d $HOME/.ngc
           chmod +x $HOME/.ngc/ngc-cli/ngc
-          # Append NGC CLI to PATH
           echo "$HOME/.ngc/ngc-cli" >> $GITHUB_PATH
 
       - name: Authenticate with NGC
@@ -39,12 +38,12 @@ jobs:
           NGC_API_KEY: ${{ secrets.NGC_API_KEY }}
         run: |
           mkdir -p ~/.ngc
-          cat <<EOF > ~/.ngc/config
+          cat > ~/.ngc/config << 'EOL'
           [CURRENT]
           apikey = $NGC_API_KEY
           format_type = json
           org = 0628453927502513
-          EOF
+          EOL
           chmod 600 ~/.ngc/config
 
       - name: Fetch and Filter NVIDIA NIM Images
@@ -61,12 +60,9 @@ jobs:
         run: |
           if [ -f data/nim_images.json ]; then
             echo "===== Checking additions/removals ====="
-            # Extract old NIMs into a file
             jq -r '.displayNames[]' data/nim_images.json > old_nims.txt
-            # Extract new NIMs
             jq -r '.displayNames[]' new_nim_images.json > new_nims.txt
 
-            # Sort and compare
             sort old_nims.txt > old_sorted.txt
             sort new_nims.txt > new_sorted.txt
 
@@ -76,7 +72,6 @@ jobs:
             echo "=== Removed NIMs ==="
             comm -23 old_sorted.txt new_sorted.txt || true
 
-            # Optional: show raw diff
             echo "=== Raw JSON diff ==="
             diff data/nim_images.json new_nim_images.json || true
           else
@@ -93,10 +88,8 @@ jobs:
           
           git add data/nim_images.json
           
-          # Only commit if there's actually a change
           if ! git diff --cached --quiet; then
             git commit -m "Update NIM images [skip ci]"
-            # Push to the main branch (adjust if your default branch is different)
             git push origin HEAD:main
           else
             echo "No changes to commit."
