@@ -22,12 +22,6 @@ This repository contains a **GitHub Actions** workflow that automatically **fetc
 2. **`nim_diff.txt`**: Open the `data/nim_diff.txt` file to see which NIMs were newly added or removed.  
 3. **`data/archive/`**: Explore older snapshots to see historical states day by day.
 
-## Contributing
-
-1. Fork the repository and make your changes on a branch.  
-2. Create a pull request to merge your changes.  
-3. GitHub Actions will run automatically and show if everything is passing.
-
 ## License
 
 This repository is licensed under the [Apache License 2.0](LICENSE).
