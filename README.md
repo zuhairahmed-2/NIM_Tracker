@@ -33,5 +33,5 @@ The [GitHub Actions workflow](.github/workflows/ngc-nim-images.yml) runs on:
    - Results uploaded as workflow artifacts
    - Historical changes tracked through git history
 
-## Troubleshooting 
+## Troubleshooting / Requests for New Features 
 Contact Zuhair Ahmed (zuhaira@nvidia.com)
