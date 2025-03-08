@@ -15,23 +15,24 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq curl
+          sudo apt-get install -y jq curl unzip
 
       - name: Install NGC CLI
         run: |
-          sudo apt-get update
-          sudo apt-get install -y jq curl unzip
+
           curl -O https://ngc.nvidia.com/downloads/ngccli_linux.zip
           unzip ngccli_linux.zip -d $HOME/.ngc
           chmod +x $HOME/.ngc/ngc-cli/ngc
+          # Append NGC CLI to PATH for subsequent steps
           echo "$HOME/.ngc/ngc-cli" >> $GITHUB_PATH
 
       - name: Authenticate with NGC
         env:
           NGC_API_KEY: ${{ secrets.NGC_API_KEY }}
         run: |
-          mkdir -p ~/.ngc
-          echo "{\"apikey\":\"$NGC_API_KEY\"}" > ~/.ngc/config
+          ngc config set --apikey "$NGC_API_KEY"
+          ngc config set --format_type json
+          ngc config set --org "0628453927502513" 
 
       - name: Fetch and Filter NVIDIA NIM Images
         run: |
