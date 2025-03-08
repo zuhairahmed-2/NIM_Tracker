@@ -35,7 +35,7 @@ jobs:
 
       - name: Fetch and Filter NVIDIA NIM Images
         run: |
-          ngc registry image list \
+          ./ngc registry image list \
           | jq '[ .[] 
                   | select(any(.labels[]?.values[]?; . == "NVIDIA NIM")) ]
                 | {
