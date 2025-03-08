@@ -39,12 +39,12 @@ jobs:
           NGC_API_KEY: ${{ secrets.NGC_API_KEY }}
         run: |
           mkdir -p ~/.ngc
-          cat > ~/.ngc/config << 'EOL'
+          cat <<EOF > ~/.ngc/config
           [CURRENT]
           apikey = $NGC_API_KEY
           format_type = json
           org = 0628453927502513
-          EOL
+          EOF
           chmod 600 ~/.ngc/config
 
       - name: Fetch and Filter NVIDIA NIM Images
