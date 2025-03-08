@@ -1,10 +1,12 @@
 name: NGC NIM Images Workflow
 
-# Workflow Triggers
 on:
+  # 1) Daily schedule at midnight UTC
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-  workflow_dispatch:      # Manual trigger
+    - cron: '0 0 * * *'
+  # 2) Manual trigger
+  workflow_dispatch:
+  # 3) Optional triggers on push or pull requests to main
   push:
     branches:
       - main
@@ -17,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write    # Required for repo modifications
+      contents: write  # Needed to commit & push changes
 
     steps:
       - name: Check out Repository
@@ -53,7 +55,7 @@ jobs:
       - name: Fetch and Filter NVIDIA NIM Images
         run: |
           ngc registry image list \
-            | jq '[ .[] 
+            | jq '[ .[]
                     | select(any(.labels[]?.values[]?; . == "NVIDIA NIM")) ]
                   | {
                       count: length,
@@ -61,50 +63,71 @@ jobs:
                     }' \
               > new_nim_images.json
 
-      - name: Compare with Previous Version
+      - name: Archive and Diff
         run: |
-          # We'll write our diff to nim_diff.txt so we can commit it as well
-          if [ -f data/nim_images.json ]; then
-            echo "===== Checking additions/removals =====" > nim_diff.txt
+          # Get today's, yesterday's, and 7-days-ago date strings in UTC
+          todayStr=$(date -u +%F)
+          ydayStr=$(date -u -d "1 day ago" +%F)
+          weekStr=$(date -u -d "7 days ago" +%F)
 
-            # Extract old NIMs
-            jq -r '.displayNames[]' data/nim_images.json > old_nims.txt
-            # Extract new NIMs
-            jq -r '.displayNames[]' new_nim_images.json > new_nims.txt
+          mkdir -p data/archive
 
-            # Sort for consistent diff
-            sort old_nims.txt > old_sorted.txt
-            sort new_nims.txt > new_sorted.txt
+          # 1) Archive today's snapshot (e.g. data/archive/2025-03-09.json)
+          cp new_nim_images.json data/archive/${todayStr}.json
 
-            echo "=== Added NIMs ===" >> nim_diff.txt
-            comm -13 old_sorted.txt new_sorted.txt >> nim_diff.txt || true
+          # 2) Prepare nim_diff.txt
+          echo "==== NIM Changes Over Past Day (Compare ${ydayStr} to ${todayStr}) ====" > nim_diff.txt
 
-            echo -e "\n=== Removed NIMs ===" >> nim_diff.txt
-            comm -23 old_sorted.txt new_sorted.txt >> nim_diff.txt || true
+          # Compare "yesterday" vs. "today" if that file exists
+          if [ -f data/archive/${ydayStr}.json ]; then
+            jq -r '.displayNames[]' data/archive/${ydayStr}.json > old_nims_day.txt
+            jq -r '.displayNames[]' new_nim_images.json         > new_nims.txt
+            sort old_nims_day.txt > old_day_sorted.txt
+            sort new_nims.txt     > new_sorted.txt
 
+            echo "=== Added NIMs (past 1 day) ===" >> nim_diff.txt
+            comm -13 old_day_sorted.txt new_sorted.txt >> nim_diff.txt || true
+
+            echo -e "\n=== Removed NIMs (past 1 day) ===" >> nim_diff.txt
+            comm -23 old_day_sorted.txt new_sorted.txt >> nim_diff.txt || true
           else
-            echo "No previous version found (first run)." > nim_diff.txt
+            echo "No data from ${ydayStr} found." >> nim_diff.txt
+          fi
+
+          echo "" >> nim_diff.txt
+          echo "==== NIM Changes Over Past 7 Days (Compare ${weekStr} to ${todayStr}) ====" >> nim_diff.txt
+
+          # Compare "7 days ago" vs. "today" if that file exists
+          if [ -f data/archive/${weekStr}.json ]; then
+            jq -r '.displayNames[]' data/archive/${weekStr}.json > old_nims_week.txt
+            jq -r '.displayNames[]' new_nim_images.json          > new_nims.txt
+            sort old_nims_week.txt > old_week_sorted.txt
+            sort new_nims.txt      > new_sorted.txt
+
+            echo "=== Added NIMs (past 7 days) ===" >> nim_diff.txt
+            comm -13 old_week_sorted.txt new_sorted.txt >> nim_diff.txt || true
+
+            echo -e "\n=== Removed NIMs (past 7 days) ===" >> nim_diff.txt
+            comm -23 old_week_sorted.txt new_sorted.txt >> nim_diff.txt || true
+          else
+            echo "No data from ${weekStr} found." >> nim_diff.txt
           fi
 
       - name: Commit and Push New Data
         run: |
-          mkdir -p data
+          # Keep a "latest" copy in data/nim_images.json
           mv new_nim_images.json data/nim_images.json
-
-          # If nim_diff.txt doesn't exist for some reason, create it
-          if [ ! -f nim_diff.txt ]; then
-            echo "No diff" > nim_diff.txt
-          fi
-
           mv nim_diff.txt data/nim_diff.txt
 
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           
-          git add data/nim_images.json data/nim_diff.txt
-          
+          # Stage everything (including new daily archive file)
+          git add data/nim_images.json data/nim_diff.txt data/archive
+
+          # Commit & push only if changes exist
           if ! git diff --cached --quiet; then
-            git commit -m "Update NIM images + diff [skip ci]"
+            git commit -m "Daily NIM update + diff [skip ci]"
             git push origin HEAD:main
           else
             echo "No changes to commit."
@@ -117,3 +140,4 @@ jobs:
           path: |
             data/nim_images.json
             data/nim_diff.txt
+            data/archive
