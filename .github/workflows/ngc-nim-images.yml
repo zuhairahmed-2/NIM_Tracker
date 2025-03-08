@@ -42,7 +42,7 @@ jobs:
                   }' > nim_images.json
 
       - name: Upload JSON Results as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: nim-images
           path: nim_images.json
