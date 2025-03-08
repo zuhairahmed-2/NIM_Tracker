@@ -1,7 +1,10 @@
 name: NGC NIM Images Workflow
 
+# Workflow Triggers
 on:
-  workflow_dispatch:  # Add manual trigger
+  schedule:
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:      # Manual trigger
   push:
     branches:
       - main
@@ -14,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: write    # Required for repo modifications
 
     steps:
       - name: Check out Repository
@@ -55,42 +58,55 @@ jobs:
                   | {
                       count: length,
                       displayNames: [.[].displayName]
-                    }' > new_nim_images.json
+                    }' \
+              > new_nim_images.json
 
       - name: Compare with Previous Version
         run: |
+          # We'll write our diff to nim_diff.txt so we can commit it as well
           if [ -f data/nim_images.json ]; then
-            echo "===== Checking additions/removals ====="
+            echo "===== Checking additions/removals =====" > nim_diff.txt
+
+            # Extract old NIMs
             jq -r '.displayNames[]' data/nim_images.json > old_nims.txt
+            # Extract new NIMs
             jq -r '.displayNames[]' new_nim_images.json > new_nims.txt
 
+            # Sort for consistent diff
             sort old_nims.txt > old_sorted.txt
             sort new_nims.txt > new_sorted.txt
 
-            echo "=== Added NIMs ==="
-            comm -13 old_sorted.txt new_sorted.txt || true
+            echo "=== Added NIMs ===" >> nim_diff.txt
+            comm -13 old_sorted.txt new_sorted.txt >> nim_diff.txt || true
 
-            echo "=== Removed NIMs ==="
-            comm -23 old_sorted.txt new_sorted.txt || true
+            echo -e "\n=== Removed NIMs ===" >> nim_diff.txt
+            comm -23 old_sorted.txt new_sorted.txt >> nim_diff.txt || true
 
-            echo "=== Raw JSON diff ==="
-            diff data/nim_images.json new_nim_images.json || true
+            echo -e "\n=== Raw JSON diff ===" >> nim_diff.txt
+            diff data/nim_images.json new_nim_images.json >> nim_diff.txt || true
           else
-            echo "No previous version found (first run)."
+            echo "No previous version found (first run)." > nim_diff.txt
           fi
 
       - name: Commit and Push New Data
         run: |
           mkdir -p data
           mv new_nim_images.json data/nim_images.json
-          
+
+          # If nim_diff.txt doesn't exist for some reason, create it
+          if [ ! -f nim_diff.txt ]; then
+            echo "No diff" > nim_diff.txt
+          fi
+
+          mv nim_diff.txt data/nim_diff.txt
+
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           
-          git add data/nim_images.json
+          git add data/nim_images.json data/nim_diff.txt
           
           if ! git diff --cached --quiet; then
-            git commit -m "Update NIM images [skip ci]"
+            git commit -m "Update NIM images + diff [skip ci]"
             git push origin HEAD:main
           else
             echo "No changes to commit."
@@ -100,4 +116,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: nim-images
-          path: data/nim_images.json
+          path: |
+            data/nim_images.json
+            data/nim_diff.txt
