@@ -82,8 +82,6 @@ jobs:
             echo -e "\n=== Removed NIMs ===" >> nim_diff.txt
             comm -23 old_sorted.txt new_sorted.txt >> nim_diff.txt || true
 
-            echo -e "\n=== Raw JSON diff ===" >> nim_diff.txt
-            diff data/nim_images.json new_nim_images.json >> nim_diff.txt || true
           else
             echo "No previous version found (first run)." > nim_diff.txt
           fi
