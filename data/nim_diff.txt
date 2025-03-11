@@ -1,7 +1,7 @@
-==== NIM Changes Over Past Day (Compare 2025-03-09 to 2025-03-10) ====
+==== NIM Changes Over Past Day (Compare 2025-03-10 to 2025-03-11) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-03-03 to 2025-03-10) ====
-No data from 2025-03-03 found.
+==== NIM Changes Over Past 7 Days (Compare 2025-03-04 to 2025-03-11) ====
+No data from 2025-03-04 found.
