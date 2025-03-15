@@ -1,7 +1,10 @@
-==== NIM Changes Over Past Day (Compare 2025-03-13 to 2025-03-14) ====
+==== NIM Changes Over Past Day (Compare 2025-03-14 to 2025-03-15) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-03-07 to 2025-03-14) ====
-No data from 2025-03-07 found.
+==== NIM Changes Over Past 7 Days (Compare 2025-03-08 to 2025-03-15) ====
+=== Added NIMs (past 7 days) ===
+Starcoder2-7B
+
+=== Removed NIMs (past 7 days) ===
