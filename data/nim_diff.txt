@@ -1,11 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-03-15 to 2025-03-16) ====
+==== NIM Changes Over Past Day (Compare 2025-03-16 to 2025-03-17) ====
 === Added NIMs (past 1 day) ===
-NeMo Retriever Graphic Elements v1
-NeMo Retriever Page Elements v2
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-03-09 to 2025-03-16) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-03-10 to 2025-03-17) ====
 === Added NIMs (past 7 days) ===
 NeMo Retriever Graphic Elements v1
 NeMo Retriever Page Elements v2
