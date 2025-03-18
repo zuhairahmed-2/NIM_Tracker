@@ -1,12 +1,16 @@
-==== NIM Changes Over Past Day (Compare 2025-03-16 to 2025-03-17) ====
+==== NIM Changes Over Past Day (Compare 2025-03-17 to 2025-03-18) ====
 === Added NIMs (past 1 day) ===
+NeMo Retriever Table Structure v1
+nemoretriever-parse
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-03-10 to 2025-03-17) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-03-11 to 2025-03-18) ====
 === Added NIMs (past 7 days) ===
 NeMo Retriever Graphic Elements v1
 NeMo Retriever Page Elements v2
+NeMo Retriever Table Structure v1
 Starcoder2-7B
+nemoretriever-parse
 
 === Removed NIMs (past 7 days) ===
