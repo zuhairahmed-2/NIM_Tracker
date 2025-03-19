@@ -1,16 +1,24 @@
-==== NIM Changes Over Past Day (Compare 2025-03-17 to 2025-03-18) ====
+==== NIM Changes Over Past Day (Compare 2025-03-18 to 2025-03-19) ====
 === Added NIMs (past 1 day) ===
-NeMo Retriever Table Structure v1
-nemoretriever-parse
+DoMINO-Automotive-Aero NIM
+Llama-3.3-Nemotron-Super-49B-v1
+Magpie TTS Multilingual NIM
+Openfold2
+msa-search
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-03-11 to 2025-03-18) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-03-12 to 2025-03-19) ====
 === Added NIMs (past 7 days) ===
+DoMINO-Automotive-Aero NIM
+Llama-3.3-Nemotron-Super-49B-v1
+Magpie TTS Multilingual NIM
 NeMo Retriever Graphic Elements v1
 NeMo Retriever Page Elements v2
 NeMo Retriever Table Structure v1
+Openfold2
 Starcoder2-7B
+msa-search
 nemoretriever-parse
 
 === Removed NIMs (past 7 days) ===
