@@ -1,15 +1,14 @@
-==== NIM Changes Over Past Day (Compare 2025-03-18 to 2025-03-19) ====
+==== NIM Changes Over Past Day (Compare 2025-03-19 to 2025-03-20) ====
 === Added NIMs (past 1 day) ===
-DoMINO-Automotive-Aero NIM
-Llama-3.3-Nemotron-Super-49B-v1
-Magpie TTS Multilingual NIM
-Openfold2
-msa-search
+Deepseek-R1-Distill-Qwen-14B
+Deepseek-R1-Distill-Qwen-32B
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-03-12 to 2025-03-19) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-03-13 to 2025-03-20) ====
 === Added NIMs (past 7 days) ===
+Deepseek-R1-Distill-Qwen-14B
+Deepseek-R1-Distill-Qwen-32B
 DoMINO-Automotive-Aero NIM
 Llama-3.3-Nemotron-Super-49B-v1
 Magpie TTS Multilingual NIM
@@ -17,7 +16,6 @@ NeMo Retriever Graphic Elements v1
 NeMo Retriever Page Elements v2
 NeMo Retriever Table Structure v1
 Openfold2
-Starcoder2-7B
 msa-search
 nemoretriever-parse
 
