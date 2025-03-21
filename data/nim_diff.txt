@@ -1,11 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-03-19 to 2025-03-20) ====
+==== NIM Changes Over Past Day (Compare 2025-03-20 to 2025-03-21) ====
 === Added NIMs (past 1 day) ===
-Deepseek-R1-Distill-Qwen-14B
-Deepseek-R1-Distill-Qwen-32B
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-03-13 to 2025-03-20) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-03-14 to 2025-03-21) ====
 === Added NIMs (past 7 days) ===
 Deepseek-R1-Distill-Qwen-14B
 Deepseek-R1-Distill-Qwen-32B
