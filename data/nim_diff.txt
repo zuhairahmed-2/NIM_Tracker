@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-04-04 to 2025-04-05) ====
+==== NIM Changes Over Past Day (Compare 2025-04-05 to 2025-04-06) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-03-29 to 2025-04-05) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-03-30 to 2025-04-06) ====
 === Added NIMs (past 7 days) ===
 Cosmos-Predict1-7B-Text2World
 
