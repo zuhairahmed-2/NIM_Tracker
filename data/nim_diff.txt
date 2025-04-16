@@ -1,12 +1,10 @@
-==== NIM Changes Over Past Day (Compare 2025-04-14 to 2025-04-15) ====
+==== NIM Changes Over Past Day (Compare 2025-04-15 to 2025-04-16) ====
 === Added NIMs (past 1 day) ===
-bge-large-zh-v1-5
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-04-08 to 2025-04-15) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-04-09 to 2025-04-16) ====
 === Added NIMs (past 7 days) ===
 bge-large-zh-v1-5
-flux.1-dev
 
 === Removed NIMs (past 7 days) ===
