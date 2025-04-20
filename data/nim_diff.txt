@@ -1,11 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-04-18 to 2025-04-19) ====
+==== NIM Changes Over Past Day (Compare 2025-04-19 to 2025-04-20) ====
 === Added NIMs (past 1 day) ===
-Llama-3.1-70B-Instruct
 
 === Removed NIMs (past 1 day) ===
-Llama-3.1-70b-instruct
 
-==== NIM Changes Over Past 7 Days (Compare 2025-04-12 to 2025-04-19) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-04-13 to 2025-04-20) ====
 === Added NIMs (past 7 days) ===
 Llama-3.1-70B-Instruct
 bge-large-zh-v1-5
