@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-04-23 to 2025-04-24) ====
+==== NIM Changes Over Past Day (Compare 2025-04-24 to 2025-04-25) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-04-17 to 2025-04-24) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-04-18 to 2025-04-25) ====
 === Added NIMs (past 7 days) ===
 Llama-3.1-70B-Instruct
 
