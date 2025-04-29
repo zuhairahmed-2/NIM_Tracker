@@ -1,9 +1,11 @@
-==== NIM Changes Over Past Day (Compare 2025-04-27 to 2025-04-28) ====
+==== NIM Changes Over Past Day (Compare 2025-04-28 to 2025-04-29) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
+Magpie TTS Multilingual NIM
 
-==== NIM Changes Over Past 7 Days (Compare 2025-04-21 to 2025-04-28) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-04-22 to 2025-04-29) ====
 === Added NIMs (past 7 days) ===
 
 === Removed NIMs (past 7 days) ===
+Magpie TTS Multilingual NIM
