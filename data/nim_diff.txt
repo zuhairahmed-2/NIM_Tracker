@@ -1,10 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-04-30 to 2025-05-01) ====
+==== NIM Changes Over Past Day (Compare 2025-05-01 to 2025-05-02) ====
 === Added NIMs (past 1 day) ===
-Cosmos-Predict1-7B-Video2World
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-04-24 to 2025-05-01) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-04-25 to 2025-05-02) ====
 === Added NIMs (past 7 days) ===
 ASR Parakeet 1.1b CTC en-US
 ASR Parakeet 1.1b RNNT Multilingual
