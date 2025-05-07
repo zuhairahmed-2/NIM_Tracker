@@ -1,16 +1,12 @@
-==== NIM Changes Over Past Day (Compare 2025-05-05 to 2025-05-06) ====
+==== NIM Changes Over Past Day (Compare 2025-05-06 to 2025-05-07) ====
 === Added NIMs (past 1 day) ===
-Llama-3.1-Nemotron-Ultra-253B-v1
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-04-29 to 2025-05-06) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-04-30 to 2025-05-07) ====
 === Added NIMs (past 7 days) ===
-ASR Parakeet 1.1b CTC en-US
-ASR Parakeet 1.1b RNNT Multilingual
 Cosmos-Predict1-7B-Video2World
 Llama-3.1-Nemotron-Ultra-253B-v1
-Magpie TTS Multilingual NIM
 NVIDIA Retrieval QA Llama 3.2 1B Embedding v2
 
 === Removed NIMs (past 7 days) ===
