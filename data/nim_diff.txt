@@ -1,11 +1,10 @@
-==== NIM Changes Over Past Day (Compare 2025-05-06 to 2025-05-07) ====
+==== NIM Changes Over Past Day (Compare 2025-05-07 to 2025-05-08) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-04-30 to 2025-05-07) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-05-01 to 2025-05-08) ====
 === Added NIMs (past 7 days) ===
-Cosmos-Predict1-7B-Video2World
 Llama-3.1-Nemotron-Ultra-253B-v1
 NVIDIA Retrieval QA Llama 3.2 1B Embedding v2
 
