@@ -1,11 +1,10 @@
-==== NIM Changes Over Past Day (Compare 2025-05-08 to 2025-05-09) ====
+==== NIM Changes Over Past Day (Compare 2025-05-09 to 2025-05-10) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-05-02 to 2025-05-09) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-05-03 to 2025-05-10) ====
 === Added NIMs (past 7 days) ===
 Llama-3.1-Nemotron-Ultra-253B-v1
-NVIDIA Retrieval QA Llama 3.2 1B Embedding v2
 
 === Removed NIMs (past 7 days) ===
