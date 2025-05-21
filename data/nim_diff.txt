@@ -1,9 +1,11 @@
-==== NIM Changes Over Past Day (Compare 2025-05-19 to 2025-05-20) ====
+==== NIM Changes Over Past Day (Compare 2025-05-20 to 2025-05-21) ====
 === Added NIMs (past 1 day) ===
+FLUX.1-schnell
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-05-13 to 2025-05-20) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-05-14 to 2025-05-21) ====
 === Added NIMs (past 7 days) ===
+FLUX.1-schnell
 
 === Removed NIMs (past 7 days) ===
