@@ -1,9 +1,13 @@
-==== NIM Changes Over Past Day (Compare 2025-06-03 to 2025-06-04) ====
+==== NIM Changes Over Past Day (Compare 2025-06-04 to 2025-06-05) ====
 === Added NIMs (past 1 day) ===
+mixtral-8x7b-instruct-v0-1
 
 === Removed NIMs (past 1 day) ===
+Mixtral-8x7B-Instruct-v0.1
 
-==== NIM Changes Over Past 7 Days (Compare 2025-05-28 to 2025-06-04) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-05-29 to 2025-06-05) ====
 === Added NIMs (past 7 days) ===
+mixtral-8x7b-instruct-v0-1
 
 === Removed NIMs (past 7 days) ===
+Mixtral-8x7B-Instruct-v0.1
