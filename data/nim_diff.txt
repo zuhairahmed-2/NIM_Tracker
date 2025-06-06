@@ -1,12 +1,16 @@
-==== NIM Changes Over Past Day (Compare 2025-06-04 to 2025-06-05) ====
+==== NIM Changes Over Past Day (Compare 2025-06-05 to 2025-06-06) ====
 === Added NIMs (past 1 day) ===
-mixtral-8x7b-instruct-v0-1
+Gemma2-9B-CPT-Sahabatai-v1-Instruct
+Llama 3.2 NeMo Retriever 500M Rerank v2
+Llama-3.1-Nemotron-Nano-4B-v1.1
 
 === Removed NIMs (past 1 day) ===
-Mixtral-8x7B-Instruct-v0.1
 
-==== NIM Changes Over Past 7 Days (Compare 2025-05-29 to 2025-06-05) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-05-30 to 2025-06-06) ====
 === Added NIMs (past 7 days) ===
+Gemma2-9B-CPT-Sahabatai-v1-Instruct
+Llama 3.2 NeMo Retriever 500M Rerank v2
+Llama-3.1-Nemotron-Nano-4B-v1.1
 mixtral-8x7b-instruct-v0-1
 
 === Removed NIMs (past 7 days) ===
