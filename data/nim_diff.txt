@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-06-06 to 2025-06-07) ====
+==== NIM Changes Over Past Day (Compare 2025-06-07 to 2025-06-08) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-05-31 to 2025-06-07) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-01 to 2025-06-08) ====
 === Added NIMs (past 7 days) ===
 Gemma2-9B-CPT-Sahabatai-v1-Instruct
 Llama 3.2 NeMo Retriever 500M Rerank v2
