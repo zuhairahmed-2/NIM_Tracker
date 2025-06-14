@@ -1,13 +1,10 @@
-==== NIM Changes Over Past Day (Compare 2025-06-12 to 2025-06-13) ====
+==== NIM Changes Over Past Day (Compare 2025-06-13 to 2025-06-14) ====
 === Added NIMs (past 1 day) ===
-ASR Parakeet 1.1b CTC en-US
-Bielik-11B-v2.3-Instruct
-Magpie TTS Multilingual NIM
-Riva Translate 1.6b
 
 === Removed NIMs (past 1 day) ===
+DoMINO-Automotive-Aero NIM
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-06 to 2025-06-13) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-07 to 2025-06-14) ====
 === Added NIMs (past 7 days) ===
 Background Noise Removal (BNR) NIM
 Bielik-11B-v2.3-Instruct
@@ -16,3 +13,4 @@ Eurollm-9b-instruct
 Riva Translate 1.6b
 
 === Removed NIMs (past 7 days) ===
+DoMINO-Automotive-Aero NIM
