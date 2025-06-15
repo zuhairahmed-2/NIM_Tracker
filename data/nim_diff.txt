@@ -1,10 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-06-13 to 2025-06-14) ====
+==== NIM Changes Over Past Day (Compare 2025-06-14 to 2025-06-15) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
-DoMINO-Automotive-Aero NIM
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-07 to 2025-06-14) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-08 to 2025-06-15) ====
 === Added NIMs (past 7 days) ===
 Background Noise Removal (BNR) NIM
 Bielik-11B-v2.3-Instruct
