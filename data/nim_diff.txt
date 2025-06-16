@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-06-14 to 2025-06-15) ====
+==== NIM Changes Over Past Day (Compare 2025-06-15 to 2025-06-16) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-08 to 2025-06-15) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-09 to 2025-06-16) ====
 === Added NIMs (past 7 days) ===
 Background Noise Removal (BNR) NIM
 Bielik-11B-v2.3-Instruct
