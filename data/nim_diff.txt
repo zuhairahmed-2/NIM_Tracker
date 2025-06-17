@@ -1,15 +1,19 @@
-==== NIM Changes Over Past Day (Compare 2025-06-15 to 2025-06-16) ====
+==== NIM Changes Over Past Day (Compare 2025-06-16 to 2025-06-17) ====
 === Added NIMs (past 1 day) ===
+Granite-3.3-8b-instruct
+silma-9b-instruct-v1.0
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-09 to 2025-06-16) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-10 to 2025-06-17) ====
 === Added NIMs (past 7 days) ===
 Background Noise Removal (BNR) NIM
 Bielik-11B-v2.3-Instruct
 Boltz-2
 Eurollm-9b-instruct
+Granite-3.3-8b-instruct
 Riva Translate 1.6b
+silma-9b-instruct-v1.0
 
 === Removed NIMs (past 7 days) ===
 DoMINO-Automotive-Aero NIM
