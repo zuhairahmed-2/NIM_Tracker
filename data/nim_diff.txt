@@ -1,17 +1,15 @@
-==== NIM Changes Over Past Day (Compare 2025-06-16 to 2025-06-17) ====
+==== NIM Changes Over Past Day (Compare 2025-06-17 to 2025-06-18) ====
 === Added NIMs (past 1 day) ===
-Granite-3.3-8b-instruct
-silma-9b-instruct-v1.0
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-10 to 2025-06-17) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-11 to 2025-06-18) ====
 === Added NIMs (past 7 days) ===
-Background Noise Removal (BNR) NIM
+ASR Parakeet 1.1b CTC en-US
 Bielik-11B-v2.3-Instruct
-Boltz-2
 Eurollm-9b-instruct
 Granite-3.3-8b-instruct
+Magpie TTS Multilingual NIM
 Riva Translate 1.6b
 silma-9b-instruct-v1.0
 
