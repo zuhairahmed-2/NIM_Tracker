@@ -1,16 +1,17 @@
-==== NIM Changes Over Past Day (Compare 2025-06-17 to 2025-06-18) ====
+==== NIM Changes Over Past Day (Compare 2025-06-18 to 2025-06-19) ====
 === Added NIMs (past 1 day) ===
+mistral-small-24b-instruct-2501
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-11 to 2025-06-18) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-12 to 2025-06-19) ====
 === Added NIMs (past 7 days) ===
 ASR Parakeet 1.1b CTC en-US
 Bielik-11B-v2.3-Instruct
-Eurollm-9b-instruct
 Granite-3.3-8b-instruct
 Magpie TTS Multilingual NIM
 Riva Translate 1.6b
+mistral-small-24b-instruct-2501
 silma-9b-instruct-v1.0
 
 === Removed NIMs (past 7 days) ===
