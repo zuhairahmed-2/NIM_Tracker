@@ -1,13 +1,12 @@
-==== NIM Changes Over Past Day (Compare 2025-06-19 to 2025-06-20) ====
+==== NIM Changes Over Past Day (Compare 2025-06-20 to 2025-06-21) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-13 to 2025-06-20) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-14 to 2025-06-21) ====
 === Added NIMs (past 7 days) ===
 Granite-3.3-8b-instruct
 mistral-small-24b-instruct-2501
 silma-9b-instruct-v1.0
 
 === Removed NIMs (past 7 days) ===
-DoMINO-Automotive-Aero NIM
