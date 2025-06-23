@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-06-21 to 2025-06-22) ====
+==== NIM Changes Over Past Day (Compare 2025-06-22 to 2025-06-23) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-15 to 2025-06-22) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-16 to 2025-06-23) ====
 === Added NIMs (past 7 days) ===
 Granite-3.3-8b-instruct
 mistral-small-24b-instruct-2501
