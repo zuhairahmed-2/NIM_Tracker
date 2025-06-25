@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-06-23 to 2025-06-24) ====
+==== NIM Changes Over Past Day (Compare 2025-06-24 to 2025-06-25) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-17 to 2025-06-24) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-18 to 2025-06-25) ====
 === Added NIMs (past 7 days) ===
 mistral-small-24b-instruct-2501
 
