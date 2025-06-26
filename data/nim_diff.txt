@@ -1,10 +1,13 @@
-==== NIM Changes Over Past Day (Compare 2025-06-24 to 2025-06-25) ====
+==== NIM Changes Over Past Day (Compare 2025-06-25 to 2025-06-26) ====
 === Added NIMs (past 1 day) ===
+DoMINO-Automotive-Aero NIM
 
 === Removed NIMs (past 1 day) ===
+Llama-3.1-Nemotron-Nano-4B-v1.1
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-18 to 2025-06-25) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-19 to 2025-06-26) ====
 === Added NIMs (past 7 days) ===
-mistral-small-24b-instruct-2501
+DoMINO-Automotive-Aero NIM
 
 === Removed NIMs (past 7 days) ===
+Llama-3.1-Nemotron-Nano-4B-v1.1
