@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-06-29 to 2025-06-30) ====
+==== NIM Changes Over Past Day (Compare 2025-06-30 to 2025-07-01) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-06-23 to 2025-06-30) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-06-24 to 2025-07-01) ====
 === Added NIMs (past 7 days) ===
 DoMINO-Automotive-Aero NIM
 
