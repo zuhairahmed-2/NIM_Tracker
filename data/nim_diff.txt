@@ -1,13 +1,15 @@
-==== NIM Changes Over Past Day (Compare 2025-07-07 to 2025-07-08) ====
+==== NIM Changes Over Past Day (Compare 2025-07-08 to 2025-07-09) ====
 === Added NIMs (past 1 day) ===
-qwen3-235b-a22b-fp8
+Sarvam-m
+llm-nim
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-07-01 to 2025-07-08) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-07-02 to 2025-07-09) ====
 === Added NIMs (past 7 days) ===
-Llama 3.1 Nemotron Nano VL 8B v1
 Llama 4 Scout 17B 16E Instruct
+Sarvam-m
+llm-nim
 qwen3-235b-a22b-fp8
 
 === Removed NIMs (past 7 days) ===
