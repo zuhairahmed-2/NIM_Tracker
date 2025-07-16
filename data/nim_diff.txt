@@ -1,14 +1,14 @@
-==== NIM Changes Over Past Day (Compare 2025-07-14 to 2025-07-15) ====
+==== NIM Changes Over Past Day (Compare 2025-07-15 to 2025-07-16) ====
 === Added NIMs (past 1 day) ===
+Teuken-7B-instruct-commercial-v0.4
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-07-08 to 2025-07-15) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-07-09 to 2025-07-16) ====
 === Added NIMs (past 7 days) ===
 Llama-3.1-70B-Instruct May 2025 (PB 25h1)
 NVIDIA Retrieval QA E5 Embedding v5 PB May 2025 (PB 25h1)
 Riva_Translate_4B_Instruct_8K
-Sarvam-m
-llm-nim
+Teuken-7B-instruct-commercial-v0.4
 
 === Removed NIMs (past 7 days) ===
