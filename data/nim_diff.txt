@@ -1,11 +1,10 @@
-==== NIM Changes Over Past Day (Compare 2025-07-17 to 2025-07-18) ====
+==== NIM Changes Over Past Day (Compare 2025-07-18 to 2025-07-19) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-07-11 to 2025-07-18) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-07-12 to 2025-07-19) ====
 === Added NIMs (past 7 days) ===
-Llama-3.1-70B-Instruct May 2025 (PB 25h1)
 NVIDIA Retrieval QA Llama 3.2 300m Embedding v2
 Teuken-7B-instruct-commercial-v0.4
 
