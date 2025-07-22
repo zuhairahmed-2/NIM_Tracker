@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-07-20 to 2025-07-21) ====
+==== NIM Changes Over Past Day (Compare 2025-07-21 to 2025-07-22) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-07-14 to 2025-07-21) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-07-15 to 2025-07-22) ====
 === Added NIMs (past 7 days) ===
 NVIDIA Retrieval QA Llama 3.2 300m Embedding v2
 Teuken-7B-instruct-commercial-v0.4
