@@ -1,14 +1,18 @@
-==== NIM Changes Over Past Day (Compare 2025-07-30 to 2025-07-31) ====
+==== NIM Changes Over Past Day (Compare 2025-07-31 to 2025-08-01) ====
 === Added NIMs (past 1 day) ===
+Multi-LLM NIM
 
 === Removed NIMs (past 1 day) ===
+llm-nim
 
-==== NIM Changes Over Past 7 Days (Compare 2025-07-24 to 2025-07-31) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-07-25 to 2025-08-01) ====
 === Added NIMs (past 7 days) ===
 GreenMind-Medium-14B-R1
+Multi-LLM NIM
 Parakeet 1.1b RNNT Multilingual Speech to Text
 Parakeet TDT 0.6B v2 Speech to Text
 Whisper Large v3 - Speech to Text
 
 === Removed NIMs (past 7 days) ===
 ASR Parakeet 1.1b RNNT Multilingual
+llm-nim
