@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-08-02 to 2025-08-03) ====
+==== NIM Changes Over Past Day (Compare 2025-08-03 to 2025-08-04) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-07-27 to 2025-08-03) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-07-28 to 2025-08-04) ====
 === Added NIMs (past 7 days) ===
 ASR Parakeet 1.1b CTC en-US
 GreenMind-Medium-14B-R1
