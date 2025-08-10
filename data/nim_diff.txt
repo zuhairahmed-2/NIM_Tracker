@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-08-08 to 2025-08-09) ====
+==== NIM Changes Over Past Day (Compare 2025-08-09 to 2025-08-10) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-02 to 2025-08-09) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-03 to 2025-08-10) ====
 === Added NIMs (past 7 days) ===
 GPT-OSS-120B
 GPT-OSS-20B
