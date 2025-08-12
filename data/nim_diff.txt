@@ -1,12 +1,13 @@
-==== NIM Changes Over Past Day (Compare 2025-08-10 to 2025-08-11) ====
+==== NIM Changes Over Past Day (Compare 2025-08-11 to 2025-08-12) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-04 to 2025-08-11) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-05 to 2025-08-12) ====
 === Added NIMs (past 7 days) ===
 GPT-OSS-120B
 GPT-OSS-20B
+Llama-3.1-70B-Instruct May 2025 (PB 25h1)
 Llama-3.1-8B-Instruct May 2025 (PB 25h1)
 Llama3.1-Typhoon2-8B-Instruct
 Mistral-Small-3.2-24B-Instruct-2506
