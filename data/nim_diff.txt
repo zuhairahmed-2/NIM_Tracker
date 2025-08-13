@@ -1,16 +1,22 @@
-==== NIM Changes Over Past Day (Compare 2025-08-11 to 2025-08-12) ====
+==== NIM Changes Over Past Day (Compare 2025-08-12 to 2025-08-13) ====
 === Added NIMs (past 1 day) ===
+FLUX.1-Kontext
+Llama-3.3-Nemotron-Super-49B-v1.5
+Stable Diffusion 3.5 Large
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-05 to 2025-08-12) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-06 to 2025-08-13) ====
 === Added NIMs (past 7 days) ===
+FLUX.1-Kontext
 GPT-OSS-120B
 GPT-OSS-20B
 Llama-3.1-70B-Instruct May 2025 (PB 25h1)
 Llama-3.1-8B-Instruct May 2025 (PB 25h1)
+Llama-3.3-Nemotron-Super-49B-v1.5
 Llama3.1-Typhoon2-8B-Instruct
 Mistral-Small-3.2-24B-Instruct-2506
+Stable Diffusion 3.5 Large
 kanana-1.5-8b-instruct-2505
 
 === Removed NIMs (past 7 days) ===
