@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-08-16 to 2025-08-17) ====
+==== NIM Changes Over Past Day (Compare 2025-08-17 to 2025-08-18) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-10 to 2025-08-17) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-11 to 2025-08-18) ====
 === Added NIMs (past 7 days) ===
 DeepSeek-Coder-V2-Lite-Instruct
 FLUX.1-Kontext
