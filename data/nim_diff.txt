@@ -1,9 +1,10 @@
-==== NIM Changes Over Past Day (Compare 2025-08-17 to 2025-08-18) ====
+==== NIM Changes Over Past Day (Compare 2025-08-18 to 2025-08-19) ====
 === Added NIMs (past 1 day) ===
+Llama 4 Scout 17B 16E Instruct
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-11 to 2025-08-18) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-12 to 2025-08-19) ====
 === Added NIMs (past 7 days) ===
 DeepSeek-Coder-V2-Lite-Instruct
 FLUX.1-Kontext
@@ -12,4 +13,3 @@ Stable Diffusion 3.5 Large
 gemma-3-1b-it
 
 === Removed NIMs (past 7 days) ===
-Llama 4 Scout 17B 16E Instruct
