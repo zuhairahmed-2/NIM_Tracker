@@ -1,11 +1,13 @@
-==== NIM Changes Over Past Day (Compare 2025-08-19 to 2025-08-20) ====
+==== NIM Changes Over Past Day (Compare 2025-08-20 to 2025-08-21) ====
 === Added NIMs (past 1 day) ===
+Qwen3-32B
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-13 to 2025-08-20) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-14 to 2025-08-21) ====
 === Added NIMs (past 7 days) ===
 DeepSeek-Coder-V2-Lite-Instruct
+Qwen3-32B
 gemma-3-1b-it
 
 === Removed NIMs (past 7 days) ===
