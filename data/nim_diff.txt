@@ -1,12 +1,11 @@
-==== NIM Changes Over Past Day (Compare 2025-08-21 to 2025-08-22) ====
+==== NIM Changes Over Past Day (Compare 2025-08-22 to 2025-08-23) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-15 to 2025-08-22) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-16 to 2025-08-23) ====
 === Added NIMs (past 7 days) ===
-DeepSeek-Coder-V2-Lite-Instruct
+Llama 4 Scout 17B 16E Instruct
 Qwen3-32B
-gemma-3-1b-it
 
 === Removed NIMs (past 7 days) ===
