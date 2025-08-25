@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-08-23 to 2025-08-24) ====
+==== NIM Changes Over Past Day (Compare 2025-08-24 to 2025-08-25) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-17 to 2025-08-24) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-18 to 2025-08-25) ====
 === Added NIMs (past 7 days) ===
 Llama 4 Scout 17B 16E Instruct
 Qwen3-32B
