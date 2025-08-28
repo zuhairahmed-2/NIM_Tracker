@@ -1,10 +1,13 @@
-==== NIM Changes Over Past Day (Compare 2025-08-26 to 2025-08-27) ====
+==== NIM Changes Over Past Day (Compare 2025-08-27 to 2025-08-28) ====
 === Added NIMs (past 1 day) ===
+Llama-3.1-8B-Instruct
 
 === Removed NIMs (past 1 day) ===
+llama-3.1-8b-instruct
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-20 to 2025-08-27) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-21 to 2025-08-28) ====
 === Added NIMs (past 7 days) ===
-Qwen3-32B
+Llama-3.1-8B-Instruct
 
 === Removed NIMs (past 7 days) ===
+llama-3.1-8b-instruct
