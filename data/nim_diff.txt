@@ -1,13 +1,21 @@
-==== NIM Changes Over Past Day (Compare 2025-08-27 to 2025-08-28) ====
+==== NIM Changes Over Past Day (Compare 2025-08-28 to 2025-08-29) ====
 === Added NIMs (past 1 day) ===
-Llama-3.1-8B-Instruct
+Llama-3.1-70B-Instruct
+llama-3.1-8b-instruct
+llama-3.3-nemotron-super-49b-v1.5
+phi-4-mini-instruct
 
 === Removed NIMs (past 1 day) ===
-llama-3.1-8b-instruct
+Llama-3.1-70B-Instruct May 2025 (PB 25h1)
+Llama-3.1-8B-Instruct May 2025 (PB 25h1)
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-21 to 2025-08-28) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-22 to 2025-08-29) ====
 === Added NIMs (past 7 days) ===
+Llama-3.1-70B-Instruct
 Llama-3.1-8B-Instruct
+llama-3.3-nemotron-super-49b-v1.5
+phi-4-mini-instruct
 
 === Removed NIMs (past 7 days) ===
-llama-3.1-8b-instruct
+Llama-3.1-70B-Instruct May 2025 (PB 25h1)
+Llama-3.1-8B-Instruct May 2025 (PB 25h1)
