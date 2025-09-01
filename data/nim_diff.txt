@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-08-30 to 2025-08-31) ====
+==== NIM Changes Over Past Day (Compare 2025-08-31 to 2025-09-01) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-24 to 2025-08-31) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-25 to 2025-09-01) ====
 === Added NIMs (past 7 days) ===
 Llama-3.1-70B-Instruct August 2025 (PB 25h1)
 Llama-3.1-8B-Instruct
