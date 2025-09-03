@@ -1,13 +1,15 @@
-==== NIM Changes Over Past Day (Compare 2025-09-01 to 2025-09-02) ====
+==== NIM Changes Over Past Day (Compare 2025-09-02 to 2025-09-03) ====
 === Added NIMs (past 1 day) ===
+TRELLIS
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-26 to 2025-09-02) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-27 to 2025-09-03) ====
 === Added NIMs (past 7 days) ===
 Llama-3.1-70B-Instruct August 2025 (PB 25h1)
 Llama-3.1-8B-Instruct
 Llama-3.1-8B-Instruct August 2025 (PB 25h1)
+TRELLIS
 llama-3.3-nemotron-super-49b-v1.5
 mixtral-8x7b-instruct-v0-1
 phi-4-mini-instruct
