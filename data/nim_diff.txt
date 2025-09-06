@@ -1,26 +1,16 @@
-==== NIM Changes Over Past Day (Compare 2025-09-04 to 2025-09-05) ====
+==== NIM Changes Over Past Day (Compare 2025-09-05 to 2025-09-06) ====
 === Added NIMs (past 1 day) ===
-Magpie TTS Multilingual NIM
-NVIDIA-Nemotron-Nano-9B-v2
-Parakeet 0.6b CTC en-US NIM
-Parakeet CTC 0.6B Mandarin English ASR
-Parakeet CTC 0.6B Spanish English ASR
-Parakeet CTC 0.6B Vietnames English ASR
+llama-3.2-nemoretriever-300m-embed-v2
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-08-29 to 2025-09-05) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-08-30 to 2025-09-06) ====
 === Added NIMs (past 7 days) ===
-Llama-3.1-70B-Instruct August 2025 (PB 25h1)
-Llama-3.1-8B-Instruct August 2025 (PB 25h1)
 NVIDIA-Nemotron-Nano-9B-v2
 Parakeet CTC 0.6B Mandarin English ASR
 Parakeet CTC 0.6B Spanish English ASR
 Parakeet CTC 0.6B Vietnames English ASR
 TRELLIS
-mixtral-8x7b-instruct-v0-1
+llama-3.2-nemoretriever-300m-embed-v2
 
 === Removed NIMs (past 7 days) ===
-Llama-3.1-70B-Instruct
-Llama-3.3-Nemotron-Super-49B-v1.5
-llama-3.1-8b-instruct
