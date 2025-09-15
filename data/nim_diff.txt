@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-09-13 to 2025-09-14) ====
+==== NIM Changes Over Past Day (Compare 2025-09-14 to 2025-09-15) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-09-07 to 2025-09-14) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-09-08 to 2025-09-15) ====
 === Added NIMs (past 7 days) ===
 DeepSeek-V3.1
 Llama 4 Maverick 17B 128E Instruct
