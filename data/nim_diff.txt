@@ -1,13 +1,14 @@
-==== NIM Changes Over Past Day (Compare 2025-09-14 to 2025-09-15) ====
+==== NIM Changes Over Past Day (Compare 2025-09-15 to 2025-09-16) ====
 === Added NIMs (past 1 day) ===
+Llama-3.1-8B-Instruct August 2025 (PB 25h1)
 
 === Removed NIMs (past 1 day) ===
+Llama-3.1-8B-Instruct
 
-==== NIM Changes Over Past 7 Days (Compare 2025-09-08 to 2025-09-15) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-09-09 to 2025-09-16) ====
 === Added NIMs (past 7 days) ===
 DeepSeek-V3.1
-Llama 4 Maverick 17B 128E Instruct
-NVIDIA Retrieval QA Llama 3.2 300m Embedding v1
+Llama-3.1-8B-Instruct August 2025 (PB 25h1)
 
 === Removed NIMs (past 7 days) ===
-llama-3.2-nemoretriever-300m-embed-v2
+Llama-3.1-8B-Instruct
