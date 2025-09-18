@@ -1,20 +1,14 @@
-==== NIM Changes Over Past Day (Compare 2025-09-16 to 2025-09-17) ====
+==== NIM Changes Over Past Day (Compare 2025-09-17 to 2025-09-18) ====
 === Added NIMs (past 1 day) ===
-Llama-3.1-70B-Instruct May 2025 (PB 25h1)
-Llama-3.1-8B-Instruct
-Qwen3-Next-80B-A3B-Thinking
+cosmos-embed1
 
 === Removed NIMs (past 1 day) ===
-Llama-3.1-70B-Instruct August 2025 (PB 25h1)
-Llama-3.1-8B-Instruct August 2025 (PB 25h1)
 
-==== NIM Changes Over Past 7 Days (Compare 2025-09-10 to 2025-09-17) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-09-11 to 2025-09-18) ====
 === Added NIMs (past 7 days) ===
-DeepSeek-V3.1
-GPT-OSS-120B
-GPT-OSS-20B
 Llama-3.1-70B-Instruct May 2025 (PB 25h1)
 Qwen3-Next-80B-A3B-Thinking
+cosmos-embed1
 
 === Removed NIMs (past 7 days) ===
 Llama-3.1-70B-Instruct August 2025 (PB 25h1)
