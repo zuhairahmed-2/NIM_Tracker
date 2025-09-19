@@ -1,10 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-09-17 to 2025-09-18) ====
+==== NIM Changes Over Past Day (Compare 2025-09-18 to 2025-09-19) ====
 === Added NIMs (past 1 day) ===
-cosmos-embed1
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-09-11 to 2025-09-18) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-09-12 to 2025-09-19) ====
 === Added NIMs (past 7 days) ===
 Llama-3.1-70B-Instruct May 2025 (PB 25h1)
 Qwen3-Next-80B-A3B-Thinking
