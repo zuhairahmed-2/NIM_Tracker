@@ -1,12 +1,13 @@
-==== NIM Changes Over Past Day (Compare 2025-09-23 to 2025-09-24) ====
+==== NIM Changes Over Past Day (Compare 2025-09-24 to 2025-09-25) ====
 === Added NIMs (past 1 day) ===
+Cosmos Reason1 7B
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-09-17 to 2025-09-24) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-09-18 to 2025-09-25) ====
 === Added NIMs (past 7 days) ===
+Cosmos Reason1 7B
 Llama-3.3-nemotron-super-49b-v1.5
-cosmos-embed1
 
 === Removed NIMs (past 7 days) ===
 llama-3.3-nemotron-super-49b-v1.5
