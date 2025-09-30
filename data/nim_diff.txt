@@ -1,17 +1,15 @@
-==== NIM Changes Over Past Day (Compare 2025-09-28 to 2025-09-29) ====
+==== NIM Changes Over Past Day (Compare 2025-09-29 to 2025-09-30) ====
 === Added NIMs (past 1 day) ===
+Evo 2 40B
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-09-22 to 2025-09-29) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-09-23 to 2025-09-30) ====
 === Added NIMs (past 7 days) ===
 Cosmos Reason1 7B
 Evo 2
 Llama-3.1-8B-Instruct May 2025 (PB 25h1)
-Llama-3.3-nemotron-super-49b-v1.5
 Stockmark-2-100B-Instruct
 
 === Removed NIMs (past 7 days) ===
-Evo 2 40B
 Llama-3.1-8B-Instruct August 2025 (PB 25h1)
-llama-3.3-nemotron-super-49b-v1.5
