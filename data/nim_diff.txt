@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-10-03 to 2025-10-04) ====
+==== NIM Changes Over Past Day (Compare 2025-10-04 to 2025-10-05) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-09-27 to 2025-10-04) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-09-28 to 2025-10-05) ====
 === Added NIMs (past 7 days) ===
 Cosmos Reason-1-7B
 Evo 2 40B
