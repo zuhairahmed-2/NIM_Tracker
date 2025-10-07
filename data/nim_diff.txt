@@ -1,12 +1,11 @@
-==== NIM Changes Over Past Day (Compare 2025-10-05 to 2025-10-06) ====
+==== NIM Changes Over Past Day (Compare 2025-10-06 to 2025-10-07) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-09-29 to 2025-10-06) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-09-30 to 2025-10-07) ====
 === Added NIMs (past 7 days) ===
 Cosmos Reason-1-7B
-Evo 2 40B
 
 === Removed NIMs (past 7 days) ===
 Cosmos Reason1 7B
