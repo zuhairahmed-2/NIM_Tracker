@@ -1,11 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2025-10-10 to 2025-10-11) ====
+==== NIM Changes Over Past Day (Compare 2025-10-11 to 2025-10-12) ====
 === Added NIMs (past 1 day) ===
-Llama-3.1-8b-Instruct-DGX-Spark
-Qwen3-32B NIM for DGX Spark
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-10-04 to 2025-10-11) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-10-05 to 2025-10-12) ====
 === Added NIMs (past 7 days) ===
 Llama-3.1-8b-Instruct-DGX-Spark
 Qwen3-32B NIM for DGX Spark
