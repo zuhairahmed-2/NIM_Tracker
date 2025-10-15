@@ -1,11 +1,15 @@
-==== NIM Changes Over Past Day (Compare 2025-10-13 to 2025-10-14) ====
+==== NIM Changes Over Past Day (Compare 2025-10-14 to 2025-10-15) ====
 === Added NIMs (past 1 day) ===
+NVIDIA-Nemotron-Nano-9B-v2-DGX-Spark
 
 === Removed NIMs (past 1 day) ===
+NVIDIA-Nemotron-Nano-9B-v2
 
-==== NIM Changes Over Past 7 Days (Compare 2025-10-07 to 2025-10-14) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-10-08 to 2025-10-15) ====
 === Added NIMs (past 7 days) ===
 Llama-3.1-8b-Instruct-DGX-Spark
+NVIDIA-Nemotron-Nano-9B-v2-DGX-Spark
 Qwen3-32B NIM for DGX Spark
 
 === Removed NIMs (past 7 days) ===
+NVIDIA-Nemotron-Nano-9B-v2
