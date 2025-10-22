@@ -1,12 +1,12 @@
-==== NIM Changes Over Past Day (Compare 2025-10-20 to 2025-10-21) ====
+==== NIM Changes Over Past Day (Compare 2025-10-21 to 2025-10-22) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2025-10-14 to 2025-10-21) ====
+==== NIM Changes Over Past 7 Days (Compare 2025-10-15 to 2025-10-22) ====
 === Added NIMs (past 7 days) ===
 Canary-1B ASR/AST Multilingual Offline Greedy
-NVIDIA-Nemotron-Nano-9B-v2-DGX-Spark
+NVIDIA-Nemotron-Nano-9B-v2
 Parakeet CTC 0.6B Taiwanese Mandarin-English ASR
 
 === Removed NIMs (past 7 days) ===
