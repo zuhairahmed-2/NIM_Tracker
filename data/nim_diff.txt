@@ -1,9 +1,9 @@
-==== NIM Changes Over Past Day (Compare 2026-02-16 to 2026-02-17) ====
+==== NIM Changes Over Past Day (Compare 2026-02-17 to 2026-02-18) ====
 === Added NIMs (past 1 day) ===
 
 === Removed NIMs (past 1 day) ===
 
-==== NIM Changes Over Past 7 Days (Compare 2026-02-10 to 2026-02-17) ====
+==== NIM Changes Over Past 7 Days (Compare 2026-02-11 to 2026-02-18) ====
 === Added NIMs (past 7 days) ===
 
 === Removed NIMs (past 7 days) ===
